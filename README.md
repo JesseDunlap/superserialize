@@ -6,6 +6,14 @@ the JSON can then be sent across a socket, HTTP, or whatever you wish. Once the 
 has been sent to the destination, superserialize can then deserialize it back into
 a JavaScript object, complete with working functions.
 
+# Installation
+
+```
+npm install superserialize
+```
+
+**You can use superserialize in browser JavaScript with the ``browserify`` module**
+
 # Usage Example
 
 ```javascript
@@ -26,12 +34,6 @@ var deserialized = deserialize(serialized);
 
 deserialize.sayHello("Bob"); // This will output "Bob: Hi there!" as expected!
 ```
-
-# Installation
-
-To use superserialize, just run ``npm install superserialize``. There are no
-dependencies and you can use superserialize in the browser with the ``browserify``
-module.
 
 # License
 
