@@ -1,0 +1,17 @@
+{
+  "name": "superserialize",
+  "version": "1.0.0",
+  "description": "An advanced serialization and deserialization system, which allows you to encode functions inside of JSON, then deserialize them back into working objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "serialize",
+    "json",
+    "functions"
+  ],
+  "author": "Jesse Dunlap <jesse.dunlap@hydrais.com>",
+  "license": "MIT"
+}
